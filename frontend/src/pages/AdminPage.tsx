@@ -181,7 +181,7 @@ export function AdminPage() {
             isLoadingMatches={isLoadingMatches}
             selectedMatchId={selectedMatchId}
             tickerMatchIds={tickerMatchIds}
-            match={match}
+            match={match ?? null}
             onDateChange={handleDateChange}
             onLeagueChange={handleLeagueChange}
             onSelectMatch={setMainMatch}

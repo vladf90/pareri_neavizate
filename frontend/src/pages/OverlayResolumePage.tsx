@@ -169,9 +169,9 @@ function VersusWidget({ bounds }: { bounds: { width: number; height: number } })
   const versusData = useAppStore((s) => s.versusData);
   const appState = useAppStore((s) => s.appState);
   const competition = appState?.data?.mainMatch?.competition?.name || "UEFA CHAMPIONS LEAGUE";
-  const stage = appState?.data?.mainMatch?.competition?.stage || "ETAPA 8";
-  const homeTeamLogo = appState?.data?.mainMatch?.homeTeam?.logo;
-  const awayTeamLogo = appState?.data?.mainMatch?.awayTeam?.logo;
+  const stage = appState?.data?.mainMatch?.round?.name || "ETAPA 8";
+  const homeTeamLogo = appState?.data?.mainMatch?.homeTeam?.crestUrl;
+  const awayTeamLogo = appState?.data?.mainMatch?.awayTeam?.crestUrl;
   
   // If versus is not visible or no players, show placeholder
   if (!versusData.visible || !versusData.player1 || !versusData.player2) {
@@ -473,7 +473,7 @@ export function OverlayResolumePage() {
   const seasonId = mainMatch?.competition?.season?.id;
   
   // Fetch standings data
-  const { data: standings, loading: standingsLoading, error: standingsError } = useWidgetData<Standings>(
+  const { data: standings, loading: standingsLoading } = useWidgetData<Standings>(
     `${API_ENDPOINTS.LIVE_STANDINGS}${seasonId ? `?seasonId=${seasonId}` : ""}`,
     { 
       autoFetch: !!seasonId,

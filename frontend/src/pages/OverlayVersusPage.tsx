@@ -70,7 +70,7 @@ export function OverlayVersusPage() {
     name: player1.firstname.toUpperCase(),
     lastname: player1.lastname.toUpperCase(),
     team: mainMatch?.homeTeam?.name || "Team 1",
-    teamLogo: mainMatch?.homeTeam?.logo,
+    teamLogo: mainMatch?.homeTeam?.crestUrl,
     img: player1.photoUrl
   } : null;
 
@@ -78,7 +78,7 @@ export function OverlayVersusPage() {
     name: player2.firstname.toUpperCase(),
     lastname: player2.lastname.toUpperCase(),
     team: mainMatch?.awayTeam?.name || "Team 2",
-    teamLogo: mainMatch?.awayTeam?.logo,
+    teamLogo: mainMatch?.awayTeam?.crestUrl,
     img: player2.photoUrl
   } : null;
 
