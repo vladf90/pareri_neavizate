@@ -1,0 +1,291 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "sport_id": 1,
+      "country_id": 41,
+      "name": "Champions League",
+      "active": true,
+      "short_code": "UEFA CL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/2.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2026-01-28 20:00:00",
+      "category": 1,
+      "has_jerseys": false,
+      "country": {
+        "id": 41,
+        "continent_id": 1,
+        "name": "Europe",
+        "official_name": "Europe",
+        "fifa_name": null,
+        "iso2": "EU",
+        "iso3": null,
+        "latitude": null,
+        "longitude": null,
+        "borders": [],
+        "image_path": "https://cdn.sportmonks.com/images/countries/png/short/eu.png"
+      }
+    },
+    {
+      "id": 5,
+      "sport_id": 1,
+      "country_id": 41,
+      "name": "Europa League",
+      "active": true,
+      "short_code": "UEFA EL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/5/5.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2026-01-29 20:00:00",
+      "category": 1,
+      "has_jerseys": false,
+      "country": {
+        "id": 41,
+        "continent_id": 1,
+        "name": "Europe",
+        "official_name": "Europe",
+        "fifa_name": null,
+        "iso2": "EU",
+        "iso3": null,
+        "latitude": null,
+        "longitude": null,
+        "borders": [],
+        "image_path": "https://cdn.sportmonks.com/images/countries/png/short/eu.png"
+      }
+    },
+    {
+      "id": 8,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "Premier League",
+      "active": true,
+      "short_code": "UK PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2026-01-31 20:00:00",
+      "category": 1,
+      "has_jerseys": false,
+      "country": {
+        "id": 462,
+        "continent_id": 1,
+        "name": "England",
+        "official_name": "England",
+        "fifa_name": "ENG",
+        "iso2": "EN",
+        "iso3": "ENG",
+        "latitude": "54.56088638305664",
+        "longitude": "-2.2125117778778076",
+        "borders": [
+          "IRL"
+        ],
+        "image_path": "https://cdn.sportmonks.com/images/countries/png/short/en.png"
+      }
+    },
+    {
+      "id": 82,
+      "sport_id": 1,
+      "country_id": 11,
+      "name": "Bundesliga",
+      "active": true,
+      "short_code": "GER BI",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/18/82.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2026-01-31 17:30:00",
+      "category": 1,
+      "has_jerseys": false,
+      "country": {
+        "id": 11,
+        "continent_id": 1,
+        "name": "Germany",
+        "official_name": "Federal Republic of Germany",
+        "fifa_name": "GER",
+        "iso2": "DE",
+        "iso3": "DEU",
+        "latitude": "51.20246505737305",
+        "longitude": "10.382203102111816",
+        "borders": [
+          "AUT",
+          "BEL",
+          "CZE",
+          "DNK",
+          "FRA",
+          "LUX",
+          "NLD",
+          "POL",
+          "CHE"
+        ],
+        "image_path": "https://cdn.sportmonks.com/images/countries/png/short/de.png"
+      }
+    },
+    {
+      "id": 301,
+      "sport_id": 1,
+      "country_id": 17,
+      "name": "Ligue 1",
+      "active": true,
+      "short_code": "FRA L1",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/13/301.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2026-01-31 20:05:00",
+      "category": 1,
+      "has_jerseys": false,
+      "country": {
+        "id": 17,
+        "continent_id": 1,
+        "name": "France",
+        "official_name": "French Republic",
+        "fifa_name": "FRA",
+        "iso2": "FR",
+        "iso3": "FRA",
+        "latitude": "46.63727951049805",
+        "longitude": "2.3382623195648193",
+        "borders": [
+          "AND",
+          "BEL",
+          "DEU",
+          "ITA",
+          "LUX",
+          "MCO",
+          "ESP",
+          "CHE"
+        ],
+        "image_path": "https://cdn.sportmonks.com/images/countries/png/short/fr.png"
+      }
+    },
+    {
+      "id": 384,
+      "sport_id": 1,
+      "country_id": 251,
+      "name": "Serie A",
+      "active": true,
+      "short_code": "ITA SA",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/0/384.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2026-01-31 19:45:00",
+      "category": 1,
+      "has_jerseys": false,
+      "country": {
+        "id": 251,
+        "continent_id": 1,
+        "name": "Italy",
+        "official_name": "Italian Republic",
+        "fifa_name": "ITA",
+        "iso2": "IT",
+        "iso3": "ITA",
+        "latitude": "42.7669792175293",
+        "longitude": "12.493823051452637",
+        "borders": [
+          "AUT",
+          "FRA",
+          "SMR",
+          "SVN",
+          "CHE",
+          "VAT"
+        ],
+        "image_path": "https://cdn.sportmonks.com/images/countries/png/short/it.png"
+      }
+    },
+    {
+      "id": 474,
+      "sport_id": 1,
+      "country_id": 155,
+      "name": "Superliga",
+      "active": true,
+      "short_code": "ROM L1",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/26/474.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2026-01-31 18:00:00",
+      "category": 2,
+      "has_jerseys": false,
+      "country": {
+        "id": 155,
+        "continent_id": 1,
+        "name": "Romania",
+        "official_name": "Romania",
+        "fifa_name": "ROU",
+        "iso2": "RO",
+        "iso3": "ROU",
+        "latitude": "45.83774185180664",
+        "longitude": "25.005935668945312",
+        "borders": [
+          "BGR",
+          "HUN",
+          "MDA",
+          "SRB",
+          "UKR"
+        ],
+        "image_path": "https://cdn.sportmonks.com/images/countries/png/short/ro.png"
+      }
+    },
+    {
+      "id": 564,
+      "sport_id": 1,
+      "country_id": 32,
+      "name": "La Liga",
+      "active": true,
+      "short_code": "ESP PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/20/564.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2026-01-31 20:00:00",
+      "category": 1,
+      "has_jerseys": false,
+      "country": {
+        "id": 32,
+        "continent_id": 1,
+        "name": "Spain",
+        "official_name": "Kingdom of Spain",
+        "fifa_name": "ESP",
+        "iso2": "ES",
+        "iso3": "ESP",
+        "latitude": "40.396026611328125",
+        "longitude": "-3.550692558288574",
+        "borders": [
+          "AND",
+          "FRA",
+          "GIB",
+          "PRT",
+          "MAR"
+        ],
+        "image_path": "https://cdn.sportmonks.com/images/countries/png/short/es.png"
+      }
+    }
+  ],
+  "pagination": {
+    "count": 8,
+    "per_page": 25,
+    "current_page": 1,
+    "next_page": null,
+    "has_more": false
+  },
+  "subscription": [
+    {
+      "meta": {
+        "trial_ends_at": "2026-01-23 15:49:29",
+        "ends_at": "2026-02-23 15:49:29",
+        "current_timestamp": 1769903636
+      },
+      "plans": [
+        {
+          "plan": "Mihai Cazacu Custom Plan 2",
+          "sport": "Football",
+          "category": "Custom"
+        }
+      ],
+      "add_ons": [],
+      "widgets": []
+    }
+  ],
+  "rate_limit": {
+    "resets_in_seconds": 3600,
+    "remaining": 2999,
+    "requested_entity": "League"
+  },
+  "timezone": "UTC"
+}

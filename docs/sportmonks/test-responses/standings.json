@@ -1,0 +1,3848 @@
+{
+  "data": [
+    {
+      "id": 167,
+      "participant_id": 14,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": 108191,
+      "position": 1,
+      "result": "equal",
+      "points": 80,
+      "participant": {
+        "id": 14,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 206,
+        "gender": "male",
+        "name": "Manchester United",
+        "short_code": "MUN",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/14.png",
+        "founded": 1878,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-25 16:30:00"
+      },
+      "details": [
+        {
+          "id": 55676,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55677,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 130,
+          "value": 23
+        },
+        {
+          "id": 55685,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55680,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 200011708,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 133,
+          "value": 78
+        },
+        {
+          "id": 200011709,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 134,
+          "value": 37
+        },
+        {
+          "id": 55679,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 132,
+          "value": 4
+        },
+        {
+          "id": 55681,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 136,
+          "value": 18
+        },
+        {
+          "id": 55683,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 138,
+          "value": 0
+        },
+        {
+          "id": 55684,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 185,
+          "value": 55
+        },
+        {
+          "id": 238218546,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 139,
+          "value": 49
+        },
+        {
+          "id": 238218559,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 140,
+          "value": 12
+        },
+        {
+          "id": 55688,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 142,
+          "value": 5
+        },
+        {
+          "id": 55690,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 144,
+          "value": 4
+        },
+        {
+          "id": 55691,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 186,
+          "value": 25
+        },
+        {
+          "id": 238218568,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 145,
+          "value": 29
+        },
+        {
+          "id": 238218570,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 146,
+          "value": 25
+        },
+        {
+          "id": 55678,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 131,
+          "value": 11
+        },
+        {
+          "id": 55692,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 179,
+          "value": 41
+        },
+        {
+          "id": 55682,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 137,
+          "value": 1
+        },
+        {
+          "id": 55686,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 187,
+          "value": 80
+        },
+        {
+          "id": 55687,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55689,
+          "standing_type": "standing",
+          "standing_id": 167,
+          "type_id": 143,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "participant_id": 18,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": 108190,
+      "position": 2,
+      "result": "equal",
+      "points": 71,
+      "participant": {
+        "id": 18,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 321614,
+        "gender": "male",
+        "name": "Chelsea",
+        "short_code": "CHE",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/18.png",
+        "founded": 1905,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 17:30:00"
+      },
+      "details": [
+        {
+          "id": 55506,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55515,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55511,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 136,
+          "value": 14
+        },
+        {
+          "id": 200011726,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 133,
+          "value": 69
+        },
+        {
+          "id": 200011727,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 134,
+          "value": 33
+        },
+        {
+          "id": 55509,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 132,
+          "value": 9
+        },
+        {
+          "id": 55510,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55512,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 137,
+          "value": 3
+        },
+        {
+          "id": 55513,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 138,
+          "value": 2
+        },
+        {
+          "id": 55514,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 185,
+          "value": 45
+        },
+        {
+          "id": 238219638,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 139,
+          "value": 39
+        },
+        {
+          "id": 238219646,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 140,
+          "value": 13
+        },
+        {
+          "id": 55516,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 187,
+          "value": 71
+        },
+        {
+          "id": 55517,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55518,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 142,
+          "value": 7
+        },
+        {
+          "id": 55507,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 130,
+          "value": 21
+        },
+        {
+          "id": 55508,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 131,
+          "value": 8
+        },
+        {
+          "id": 55519,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 143,
+          "value": 5
+        },
+        {
+          "id": 55520,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 144,
+          "value": 7
+        },
+        {
+          "id": 55521,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 186,
+          "value": 26
+        },
+        {
+          "id": 238219658,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 145,
+          "value": 30
+        },
+        {
+          "id": 238219677,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 146,
+          "value": 20
+        },
+        {
+          "id": 55522,
+          "standing_type": "standing",
+          "standing_id": 162,
+          "type_id": 179,
+          "value": 36
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "participant_id": 9,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": 108189,
+      "position": 3,
+      "result": "equal",
+      "points": 71,
+      "participant": {
+        "id": 9,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 151,
+        "gender": "male",
+        "name": "Manchester City",
+        "short_code": "MCI",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
+        "founded": 1880,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-28 20:00:00"
+      },
+      "details": [
+        {
+          "id": 55651,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 238220440,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 145,
+          "value": 26
+        },
+        {
+          "id": 55658,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 179,
+          "value": 27
+        },
+        {
+          "id": 55645,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 132,
+          "value": 9
+        },
+        {
+          "id": 55646,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55647,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 136,
+          "value": 13
+        },
+        {
+          "id": 55648,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 137,
+          "value": 4
+        },
+        {
+          "id": 55649,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 138,
+          "value": 2
+        },
+        {
+          "id": 55650,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 185,
+          "value": 43
+        },
+        {
+          "id": 238220382,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 139,
+          "value": 34
+        },
+        {
+          "id": 238220432,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 140,
+          "value": 12
+        },
+        {
+          "id": 55652,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 187,
+          "value": 71
+        },
+        {
+          "id": 55653,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55654,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 142,
+          "value": 8
+        },
+        {
+          "id": 55655,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 143,
+          "value": 4
+        },
+        {
+          "id": 55656,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 144,
+          "value": 7
+        },
+        {
+          "id": 55657,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 186,
+          "value": 28
+        },
+        {
+          "id": 200011744,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 133,
+          "value": 60
+        },
+        {
+          "id": 200011745,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 134,
+          "value": 33
+        },
+        {
+          "id": 55642,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55643,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 130,
+          "value": 21
+        },
+        {
+          "id": 55644,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 131,
+          "value": 8
+        },
+        {
+          "id": 238220447,
+          "standing_type": "standing",
+          "standing_id": 166,
+          "type_id": 146,
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "participant_id": 19,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": 108192,
+      "position": 4,
+      "result": "equal",
+      "points": 68,
+      "participant": {
+        "id": 19,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 204,
+        "gender": "male",
+        "name": "Arsenal",
+        "short_code": "ARS",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/19.png",
+        "founded": 1886,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 15:00:00"
+      },
+      "details": [
+        {
+          "id": 55345,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55352,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 179,
+          "value": 29
+        },
+        {
+          "id": 200011762,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 133,
+          "value": 72
+        },
+        {
+          "id": 200011763,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 134,
+          "value": 43
+        },
+        {
+          "id": 55336,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55337,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 130,
+          "value": 19
+        },
+        {
+          "id": 55338,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 131,
+          "value": 11
+        },
+        {
+          "id": 55339,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 132,
+          "value": 8
+        },
+        {
+          "id": 55340,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55341,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 136,
+          "value": 11
+        },
+        {
+          "id": 55343,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 138,
+          "value": 4
+        },
+        {
+          "id": 55344,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 185,
+          "value": 37
+        },
+        {
+          "id": 238221239,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 139,
+          "value": 33
+        },
+        {
+          "id": 238221286,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 140,
+          "value": 15
+        },
+        {
+          "id": 55346,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 187,
+          "value": 68
+        },
+        {
+          "id": 55347,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55349,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 143,
+          "value": 7
+        },
+        {
+          "id": 55350,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 144,
+          "value": 4
+        },
+        {
+          "id": 55351,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 186,
+          "value": 31
+        },
+        {
+          "id": 238221296,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 145,
+          "value": 39
+        },
+        {
+          "id": 238221298,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 146,
+          "value": 28
+        },
+        {
+          "id": 55342,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 137,
+          "value": 4
+        },
+        {
+          "id": 55348,
+          "standing_type": "standing",
+          "standing_id": 156,
+          "type_id": 142,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "participant_id": 6,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": 108193,
+      "position": 5,
+      "result": "equal",
+      "points": 62,
+      "participant": {
+        "id": 6,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 281313,
+        "gender": "male",
+        "name": "Tottenham Hotspur",
+        "short_code": "TOT",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png",
+        "founded": 1882,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-28 20:00:00"
+      },
+      "details": [
+        {
+          "id": 55846,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55855,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 238222465,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 146,
+          "value": 27
+        },
+        {
+          "id": 200011780,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 133,
+          "value": 55
+        },
+        {
+          "id": 200011781,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 134,
+          "value": 46
+        },
+        {
+          "id": 55848,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 131,
+          "value": 14
+        },
+        {
+          "id": 55849,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 132,
+          "value": 8
+        },
+        {
+          "id": 55850,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55851,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 136,
+          "value": 9
+        },
+        {
+          "id": 55861,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 186,
+          "value": 26
+        },
+        {
+          "id": 238222318,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 145,
+          "value": 25
+        },
+        {
+          "id": 55862,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 179,
+          "value": 9
+        },
+        {
+          "id": 55847,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 130,
+          "value": 16
+        },
+        {
+          "id": 55852,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 137,
+          "value": 9
+        },
+        {
+          "id": 55853,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 138,
+          "value": 1
+        },
+        {
+          "id": 55854,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 185,
+          "value": 36
+        },
+        {
+          "id": 238222289,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 139,
+          "value": 30
+        },
+        {
+          "id": 238222309,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 140,
+          "value": 19
+        },
+        {
+          "id": 55856,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 187,
+          "value": 62
+        },
+        {
+          "id": 55857,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55860,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 144,
+          "value": 7
+        },
+        {
+          "id": 55858,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 142,
+          "value": 7
+        },
+        {
+          "id": 55859,
+          "standing_type": "standing",
+          "standing_id": 171,
+          "type_id": 143,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "participant_id": 8,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 6,
+      "result": "equal",
+      "points": 58,
+      "participant": {
+        "id": 8,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 230,
+        "gender": "male",
+        "name": "Liverpool",
+        "short_code": "LIV",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png",
+        "founded": 1892,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 20:00:00"
+      },
+      "details": [
+        {
+          "id": 55608,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55617,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 200011798,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 133,
+          "value": 59
+        },
+        {
+          "id": 200011799,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 134,
+          "value": 44
+        },
+        {
+          "id": 55609,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 130,
+          "value": 17
+        },
+        {
+          "id": 55610,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 131,
+          "value": 7
+        },
+        {
+          "id": 55611,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 132,
+          "value": 14
+        },
+        {
+          "id": 55612,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55613,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 136,
+          "value": 12
+        },
+        {
+          "id": 55614,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 137,
+          "value": 4
+        },
+        {
+          "id": 55615,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 138,
+          "value": 3
+        },
+        {
+          "id": 55616,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 185,
+          "value": 40
+        },
+        {
+          "id": 238223456,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 139,
+          "value": 37
+        },
+        {
+          "id": 238223457,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 140,
+          "value": 14
+        },
+        {
+          "id": 55618,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 187,
+          "value": 58
+        },
+        {
+          "id": 55622,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 144,
+          "value": 11
+        },
+        {
+          "id": 55623,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 186,
+          "value": 18
+        },
+        {
+          "id": 238223580,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 145,
+          "value": 22
+        },
+        {
+          "id": 238223583,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 146,
+          "value": 30
+        },
+        {
+          "id": 55624,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 179,
+          "value": 15
+        },
+        {
+          "id": 55619,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55620,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 142,
+          "value": 5
+        },
+        {
+          "id": 55621,
+          "standing_type": "standing",
+          "standing_id": 165,
+          "type_id": 143,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "participant_id": 13,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 7,
+      "result": "equal",
+      "points": 54,
+      "participant": {
+        "id": 13,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 343762,
+        "gender": "male",
+        "name": "Everton",
+        "short_code": "EVE",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/13/13.png",
+        "founded": 1878,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 15:00:00"
+      },
+      "details": [
+        {
+          "id": 55540,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55549,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55543,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 132,
+          "value": 10
+        },
+        {
+          "id": 55544,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55542,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 131,
+          "value": 15
+        },
+        {
+          "id": 55545,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 136,
+          "value": 9
+        },
+        {
+          "id": 55547,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 138,
+          "value": 3
+        },
+        {
+          "id": 238224001,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 139,
+          "value": 31
+        },
+        {
+          "id": 238224005,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 140,
+          "value": 23
+        },
+        {
+          "id": 55554,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 144,
+          "value": 7
+        },
+        {
+          "id": 55555,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 186,
+          "value": 20
+        },
+        {
+          "id": 55556,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 179,
+          "value": 6
+        },
+        {
+          "id": 200011816,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 133,
+          "value": 51
+        },
+        {
+          "id": 200011817,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 134,
+          "value": 45
+        },
+        {
+          "id": 55541,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 130,
+          "value": 13
+        },
+        {
+          "id": 55548,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 185,
+          "value": 34
+        },
+        {
+          "id": 55550,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 187,
+          "value": 54
+        },
+        {
+          "id": 55551,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55552,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 142,
+          "value": 4
+        },
+        {
+          "id": 55553,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 143,
+          "value": 8
+        },
+        {
+          "id": 55546,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 137,
+          "value": 7
+        },
+        {
+          "id": 238224019,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 145,
+          "value": 20
+        },
+        {
+          "id": 238224024,
+          "standing_type": "standing",
+          "standing_id": 163,
+          "type_id": 146,
+          "value": 22
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "participant_id": 11,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 8,
+      "result": "equal",
+      "points": 49,
+      "participant": {
+        "id": 11,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 485,
+        "gender": "male",
+        "name": "Fulham",
+        "short_code": "FUL",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/11/11.png",
+        "founded": 1879,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-24 15:00:00"
+      },
+      "details": [
+        {
+          "id": 55583,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55576,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 131,
+          "value": 16
+        },
+        {
+          "id": 55577,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 132,
+          "value": 11
+        },
+        {
+          "id": 55581,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 138,
+          "value": 4
+        },
+        {
+          "id": 55584,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 187,
+          "value": 49
+        },
+        {
+          "id": 55585,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 238224965,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 145,
+          "value": 19
+        },
+        {
+          "id": 238224966,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 146,
+          "value": 20
+        },
+        {
+          "id": 55590,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 179,
+          "value": 6
+        },
+        {
+          "id": 55578,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55580,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 137,
+          "value": 7
+        },
+        {
+          "id": 238224941,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 139,
+          "value": 30
+        },
+        {
+          "id": 200011834,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 133,
+          "value": 49
+        },
+        {
+          "id": 200011835,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 134,
+          "value": 43
+        },
+        {
+          "id": 55579,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 136,
+          "value": 8
+        },
+        {
+          "id": 55582,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 185,
+          "value": 31
+        },
+        {
+          "id": 55586,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 142,
+          "value": 3
+        },
+        {
+          "id": 55587,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 143,
+          "value": 9
+        },
+        {
+          "id": 55588,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 144,
+          "value": 7
+        },
+        {
+          "id": 55574,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55575,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 130,
+          "value": 11
+        },
+        {
+          "id": 238224943,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 140,
+          "value": 23
+        },
+        {
+          "id": 55589,
+          "standing_type": "standing",
+          "standing_id": 164,
+          "type_id": 186,
+          "value": 18
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "participant_id": 15,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 9,
+      "result": "up",
+      "points": 48,
+      "participant": {
+        "id": 15,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 5,
+        "gender": "male",
+        "name": "Aston Villa",
+        "short_code": "AVL",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/15.png",
+        "founded": 1874,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-29 20:00:00"
+      },
+      "details": [
+        {
+          "id": 55370,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55379,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55386,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 179,
+          "value": -11
+        },
+        {
+          "id": 55376,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 137,
+          "value": 7
+        },
+        {
+          "id": 55377,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 138,
+          "value": 4
+        },
+        {
+          "id": 238225997,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 140,
+          "value": 19
+        },
+        {
+          "id": 200011853,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 134,
+          "value": 59
+        },
+        {
+          "id": 55375,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 136,
+          "value": 8
+        },
+        {
+          "id": 55378,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 185,
+          "value": 31
+        },
+        {
+          "id": 55380,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 187,
+          "value": 48
+        },
+        {
+          "id": 55381,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55382,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 142,
+          "value": 4
+        },
+        {
+          "id": 55383,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 143,
+          "value": 5
+        },
+        {
+          "id": 55384,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 144,
+          "value": 10
+        },
+        {
+          "id": 238226004,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 145,
+          "value": 22
+        },
+        {
+          "id": 200011852,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 133,
+          "value": 48
+        },
+        {
+          "id": 55371,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 130,
+          "value": 12
+        },
+        {
+          "id": 55372,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 131,
+          "value": 12
+        },
+        {
+          "id": 55373,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 132,
+          "value": 14
+        },
+        {
+          "id": 55374,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 238225995,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 139,
+          "value": 26
+        },
+        {
+          "id": 55385,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 186,
+          "value": 17
+        },
+        {
+          "id": 238226005,
+          "standing_type": "standing",
+          "standing_id": 157,
+          "type_id": 146,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "participant_id": 3,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 10,
+      "result": "up",
+      "points": 47,
+      "participant": {
+        "id": 3,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 212,
+        "gender": "male",
+        "name": "Sunderland",
+        "short_code": "SUN",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/3/3.png",
+        "founded": 1879,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-24 12:30:00"
+      },
+      "details": [
+        {
+          "id": 55795,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55796,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 130,
+          "value": 12
+        },
+        {
+          "id": 55804,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55801,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 137,
+          "value": 5
+        },
+        {
+          "id": 238226632,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 140,
+          "value": 27
+        },
+        {
+          "id": 55798,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 132,
+          "value": 15
+        },
+        {
+          "id": 55799,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55800,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 136,
+          "value": 7
+        },
+        {
+          "id": 55802,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 138,
+          "value": 7
+        },
+        {
+          "id": 55803,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 185,
+          "value": 26
+        },
+        {
+          "id": 238226620,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 139,
+          "value": 25
+        },
+        {
+          "id": 55805,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 187,
+          "value": 47
+        },
+        {
+          "id": 55806,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55807,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 142,
+          "value": 5
+        },
+        {
+          "id": 55808,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 143,
+          "value": 6
+        },
+        {
+          "id": 55809,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 144,
+          "value": 8
+        },
+        {
+          "id": 55810,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 186,
+          "value": 21
+        },
+        {
+          "id": 200011870,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 133,
+          "value": 45
+        },
+        {
+          "id": 200011871,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 134,
+          "value": 56
+        },
+        {
+          "id": 55797,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 131,
+          "value": 11
+        },
+        {
+          "id": 238226729,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 145,
+          "value": 20
+        },
+        {
+          "id": 238226738,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 146,
+          "value": 29
+        },
+        {
+          "id": 55811,
+          "standing_type": "standing",
+          "standing_id": 170,
+          "type_id": 179,
+          "value": -11
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "participant_id": 10,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 11,
+      "result": "equal",
+      "points": 47,
+      "participant": {
+        "id": 10,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 119,
+        "gender": "male",
+        "name": "West Bromwich Albion",
+        "short_code": "WBA",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/10.png",
+        "founded": 1878,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 15:00:00"
+      },
+      "details": [
+        {
+          "id": 55906,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55900,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 132,
+          "value": 15
+        },
+        {
+          "id": 55901,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55897,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55898,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 130,
+          "value": 12
+        },
+        {
+          "id": 55905,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 185,
+          "value": 30
+        },
+        {
+          "id": 55907,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 187,
+          "value": 47
+        },
+        {
+          "id": 55909,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 142,
+          "value": 4
+        },
+        {
+          "id": 55911,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 144,
+          "value": 10
+        },
+        {
+          "id": 55912,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 186,
+          "value": 17
+        },
+        {
+          "id": 238227398,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 145,
+          "value": 26
+        },
+        {
+          "id": 200011888,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 133,
+          "value": 56
+        },
+        {
+          "id": 200011889,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 134,
+          "value": 71
+        },
+        {
+          "id": 55899,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 131,
+          "value": 11
+        },
+        {
+          "id": 238227180,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 139,
+          "value": 30
+        },
+        {
+          "id": 238227181,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 140,
+          "value": 30
+        },
+        {
+          "id": 55902,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 136,
+          "value": 8
+        },
+        {
+          "id": 55903,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 137,
+          "value": 6
+        },
+        {
+          "id": 55904,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 138,
+          "value": 5
+        },
+        {
+          "id": 55908,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55910,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 143,
+          "value": 5
+        },
+        {
+          "id": 238227400,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 146,
+          "value": 41
+        },
+        {
+          "id": 55913,
+          "standing_type": "standing",
+          "standing_id": 172,
+          "type_id": 179,
+          "value": -15
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "participant_id": 20,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 12,
+      "result": "equal",
+      "points": 46,
+      "participant": {
+        "id": 20,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 449,
+        "gender": "male",
+        "name": "Newcastle United",
+        "short_code": "NEW",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/20.png",
+        "founded": 1892,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 20:00:00"
+      },
+      "details": [
+        {
+          "id": 55710,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55711,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 130,
+          "value": 11
+        },
+        {
+          "id": 55719,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 238228126,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 145,
+          "value": 15
+        },
+        {
+          "id": 238228134,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 146,
+          "value": 30
+        },
+        {
+          "id": 200011906,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 133,
+          "value": 56
+        },
+        {
+          "id": 200011907,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 134,
+          "value": 57
+        },
+        {
+          "id": 238228114,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 139,
+          "value": 41
+        },
+        {
+          "id": 55720,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 187,
+          "value": 46
+        },
+        {
+          "id": 55721,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55712,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 131,
+          "value": 13
+        },
+        {
+          "id": 55713,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 132,
+          "value": 14
+        },
+        {
+          "id": 55714,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55715,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 136,
+          "value": 6
+        },
+        {
+          "id": 55716,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 137,
+          "value": 8
+        },
+        {
+          "id": 55717,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 138,
+          "value": 5
+        },
+        {
+          "id": 55718,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 185,
+          "value": 26
+        },
+        {
+          "id": 238228115,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 140,
+          "value": 27
+        },
+        {
+          "id": 55725,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 186,
+          "value": 20
+        },
+        {
+          "id": 55726,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 179,
+          "value": -1
+        },
+        {
+          "id": 55722,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 142,
+          "value": 5
+        },
+        {
+          "id": 55723,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 143,
+          "value": 5
+        },
+        {
+          "id": 55724,
+          "standing_type": "standing",
+          "standing_id": 168,
+          "type_id": 144,
+          "value": 9
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "participant_id": 26,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 13,
+      "result": "down",
+      "points": 46,
+      "participant": {
+        "id": 26,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 207,
+        "gender": "male",
+        "name": "Stoke City",
+        "short_code": "STK",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/26.png",
+        "founded": 1868,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 12:30:00"
+      },
+      "details": [
+        {
+          "id": 55744,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55753,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55745,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 130,
+          "value": 13
+        },
+        {
+          "id": 55749,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 136,
+          "value": 10
+        },
+        {
+          "id": 55750,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 137,
+          "value": 4
+        },
+        {
+          "id": 55751,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 138,
+          "value": 5
+        },
+        {
+          "id": 55754,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 187,
+          "value": 46
+        },
+        {
+          "id": 200011924,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 133,
+          "value": 46
+        },
+        {
+          "id": 200011925,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 134,
+          "value": 48
+        },
+        {
+          "id": 55747,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 132,
+          "value": 18
+        },
+        {
+          "id": 55752,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 185,
+          "value": 34
+        },
+        {
+          "id": 55757,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 143,
+          "value": 3
+        },
+        {
+          "id": 55758,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 144,
+          "value": 13
+        },
+        {
+          "id": 55759,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 186,
+          "value": 12
+        },
+        {
+          "id": 238228935,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 145,
+          "value": 15
+        },
+        {
+          "id": 55746,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 131,
+          "value": 7
+        },
+        {
+          "id": 55748,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 238228902,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 139,
+          "value": 31
+        },
+        {
+          "id": 238228904,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 140,
+          "value": 18
+        },
+        {
+          "id": 55755,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55756,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 142,
+          "value": 3
+        },
+        {
+          "id": 238228936,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 146,
+          "value": 30
+        },
+        {
+          "id": 55760,
+          "standing_type": "standing",
+          "standing_id": 169,
+          "type_id": 179,
+          "value": -2
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "participant_id": 16,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 14,
+      "result": "down",
+      "points": 46,
+      "participant": {
+        "id": 16,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 383,
+        "gender": "male",
+        "name": "Bolton Wanderers",
+        "short_code": "BOL",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/16.png",
+        "founded": 1874,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 12:30:00"
+      },
+      "details": [
+        {
+          "id": 55498,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55505,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 179,
+          "value": -4
+        },
+        {
+          "id": 55492,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 132,
+          "value": 16
+        },
+        {
+          "id": 55493,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55494,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 136,
+          "value": 10
+        },
+        {
+          "id": 55495,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 137,
+          "value": 5
+        },
+        {
+          "id": 55496,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 138,
+          "value": 4
+        },
+        {
+          "id": 55497,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 185,
+          "value": 35
+        },
+        {
+          "id": 238229955,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 139,
+          "value": 34
+        },
+        {
+          "id": 200011942,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 133,
+          "value": 52
+        },
+        {
+          "id": 200011943,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 134,
+          "value": 56
+        },
+        {
+          "id": 55504,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 186,
+          "value": 11
+        },
+        {
+          "id": 238230010,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 145,
+          "value": 18
+        },
+        {
+          "id": 238230023,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 146,
+          "value": 32
+        },
+        {
+          "id": 55489,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55490,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 130,
+          "value": 12
+        },
+        {
+          "id": 55491,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 131,
+          "value": 10
+        },
+        {
+          "id": 238229956,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 140,
+          "value": 24
+        },
+        {
+          "id": 55499,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 187,
+          "value": 46
+        },
+        {
+          "id": 55500,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55501,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 142,
+          "value": 2
+        },
+        {
+          "id": 55502,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 143,
+          "value": 5
+        },
+        {
+          "id": 55503,
+          "standing_type": "standing",
+          "standing_id": 161,
+          "type_id": 144,
+          "value": 12
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "participant_id": 2,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 15,
+      "result": "equal",
+      "points": 43,
+      "participant": {
+        "id": 2,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 8,
+        "gender": "male",
+        "name": "Blackburn Rovers",
+        "short_code": "BBR",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/2.png",
+        "founded": 1875,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 15:00:00"
+      },
+      "details": [
+        {
+          "id": 55421,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55430,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 238230738,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 139,
+          "value": 22
+        },
+        {
+          "id": 55423,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 131,
+          "value": 10
+        },
+        {
+          "id": 238230746,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 145,
+          "value": 24
+        },
+        {
+          "id": 238230747,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 146,
+          "value": 43
+        },
+        {
+          "id": 55437,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 179,
+          "value": -13
+        },
+        {
+          "id": 200011960,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 133,
+          "value": 46
+        },
+        {
+          "id": 200011961,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 134,
+          "value": 59
+        },
+        {
+          "id": 55422,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 130,
+          "value": 11
+        },
+        {
+          "id": 55424,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 132,
+          "value": 17
+        },
+        {
+          "id": 55425,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55426,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 136,
+          "value": 7
+        },
+        {
+          "id": 55427,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 137,
+          "value": 7
+        },
+        {
+          "id": 55428,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 138,
+          "value": 5
+        },
+        {
+          "id": 55429,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 185,
+          "value": 28
+        },
+        {
+          "id": 238230739,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 140,
+          "value": 16
+        },
+        {
+          "id": 55431,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 187,
+          "value": 43
+        },
+        {
+          "id": 55432,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55433,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 142,
+          "value": 4
+        },
+        {
+          "id": 55434,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 143,
+          "value": 3
+        },
+        {
+          "id": 55435,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 144,
+          "value": 12
+        },
+        {
+          "id": 55436,
+          "standing_type": "standing",
+          "standing_id": 159,
+          "type_id": 186,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "participant_id": 17,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 16,
+      "result": "up",
+      "points": 42,
+      "participant": {
+        "id": 17,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 14,
+        "gender": "male",
+        "name": "Wigan Athletic",
+        "short_code": "WIG",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/17.png",
+        "founded": 1932,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 15:00:00"
+      },
+      "details": [
+        {
+          "id": 56016,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 56017,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 130,
+          "value": 9
+        },
+        {
+          "id": 56025,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 56024,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 185,
+          "value": 23
+        },
+        {
+          "id": 238231176,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 140,
+          "value": 34
+        },
+        {
+          "id": 56018,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 131,
+          "value": 15
+        },
+        {
+          "id": 56019,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 132,
+          "value": 14
+        },
+        {
+          "id": 56020,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 56021,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 136,
+          "value": 5
+        },
+        {
+          "id": 238231161,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 139,
+          "value": 22
+        },
+        {
+          "id": 56026,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 187,
+          "value": 42
+        },
+        {
+          "id": 56027,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 56028,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 142,
+          "value": 4
+        },
+        {
+          "id": 56029,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 143,
+          "value": 7
+        },
+        {
+          "id": 56030,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 144,
+          "value": 8
+        },
+        {
+          "id": 56031,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 186,
+          "value": 19
+        },
+        {
+          "id": 238231183,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 145,
+          "value": 18
+        },
+        {
+          "id": 238231184,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 146,
+          "value": 27
+        },
+        {
+          "id": 56032,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 179,
+          "value": -21
+        },
+        {
+          "id": 200011978,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 133,
+          "value": 40
+        },
+        {
+          "id": 200011979,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 134,
+          "value": 61
+        },
+        {
+          "id": 56022,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 137,
+          "value": 8
+        },
+        {
+          "id": 56023,
+          "standing_type": "standing",
+          "standing_id": 174,
+          "type_id": 138,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "participant_id": 29,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": null,
+      "position": 17,
+      "result": "down",
+      "points": 40,
+      "participant": {
+        "id": 29,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 492,
+        "gender": "male",
+        "name": "Wolverhampton Wanderers",
+        "short_code": "WOL",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/29.png",
+        "founded": 1877,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 15:00:00"
+      },
+      "details": [
+        {
+          "id": 56076,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 56067,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 56068,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 130,
+          "value": 11
+        },
+        {
+          "id": 56069,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 131,
+          "value": 7
+        },
+        {
+          "id": 56080,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 143,
+          "value": 3
+        },
+        {
+          "id": 238231584,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 139,
+          "value": 30
+        },
+        {
+          "id": 200011996,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 133,
+          "value": 46
+        },
+        {
+          "id": 200011997,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 134,
+          "value": 66
+        },
+        {
+          "id": 56083,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 179,
+          "value": -20
+        },
+        {
+          "id": 56071,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 56072,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 136,
+          "value": 8
+        },
+        {
+          "id": 56073,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 137,
+          "value": 4
+        },
+        {
+          "id": 56074,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 138,
+          "value": 7
+        },
+        {
+          "id": 56075,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 185,
+          "value": 28
+        },
+        {
+          "id": 238231613,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 140,
+          "value": 30
+        },
+        {
+          "id": 56081,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 144,
+          "value": 13
+        },
+        {
+          "id": 56082,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 186,
+          "value": 12
+        },
+        {
+          "id": 56070,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 132,
+          "value": 20
+        },
+        {
+          "id": 238231620,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 145,
+          "value": 16
+        },
+        {
+          "id": 238231622,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 146,
+          "value": 36
+        },
+        {
+          "id": 56077,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 187,
+          "value": 40
+        },
+        {
+          "id": 56078,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 56079,
+          "standing_type": "standing",
+          "standing_id": 175,
+          "type_id": 142,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "participant_id": 12,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": 108188,
+      "position": 18,
+      "result": "down",
+      "points": 39,
+      "participant": {
+        "id": 12,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 507,
+        "gender": "male",
+        "name": "Birmingham City",
+        "short_code": "BRC",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/12.png",
+        "founded": 1875,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 15:00:00"
+      },
+      "details": [
+        {
+          "id": 55413,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55414,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 187,
+          "value": 39
+        },
+        {
+          "id": 238232012,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 139,
+          "value": 19
+        },
+        {
+          "id": 238232207,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 146,
+          "value": 36
+        },
+        {
+          "id": 55419,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 186,
+          "value": 13
+        },
+        {
+          "id": 55412,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 185,
+          "value": 26
+        },
+        {
+          "id": 55407,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 132,
+          "value": 15
+        },
+        {
+          "id": 55408,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55410,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 137,
+          "value": 8
+        },
+        {
+          "id": 55411,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 138,
+          "value": 5
+        },
+        {
+          "id": 238232097,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 140,
+          "value": 22
+        },
+        {
+          "id": 55416,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 142,
+          "value": 2
+        },
+        {
+          "id": 238232206,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 145,
+          "value": 18
+        },
+        {
+          "id": 55420,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 179,
+          "value": -21
+        },
+        {
+          "id": 200012014,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 133,
+          "value": 37
+        },
+        {
+          "id": 200012015,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 134,
+          "value": 58
+        },
+        {
+          "id": 55404,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55405,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 130,
+          "value": 8
+        },
+        {
+          "id": 55406,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 131,
+          "value": 15
+        },
+        {
+          "id": 55409,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 136,
+          "value": 6
+        },
+        {
+          "id": 55415,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55417,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 143,
+          "value": 7
+        },
+        {
+          "id": 55418,
+          "standing_type": "standing",
+          "standing_id": 158,
+          "type_id": 144,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "participant_id": 28,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": 108186,
+      "position": 19,
+      "result": "down",
+      "points": 39,
+      "participant": {
+        "id": 28,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 26,
+        "gender": "male",
+        "name": "Blackpool",
+        "short_code": "BLK",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/28/28.png",
+        "founded": 1887,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 15:00:00"
+      },
+      "details": [
+        {
+          "id": 55464,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 238232597,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 145,
+          "value": 25
+        },
+        {
+          "id": 55463,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 185,
+          "value": 20
+        },
+        {
+          "id": 238232557,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 139,
+          "value": 30
+        },
+        {
+          "id": 238232574,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 140,
+          "value": 37
+        },
+        {
+          "id": 55465,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 187,
+          "value": 39
+        },
+        {
+          "id": 55466,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 200012032,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 133,
+          "value": 55
+        },
+        {
+          "id": 200012033,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 134,
+          "value": 78
+        },
+        {
+          "id": 55455,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55456,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 130,
+          "value": 10
+        },
+        {
+          "id": 55457,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 131,
+          "value": 9
+        },
+        {
+          "id": 55458,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 132,
+          "value": 19
+        },
+        {
+          "id": 55459,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55460,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 136,
+          "value": 5
+        },
+        {
+          "id": 55461,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 137,
+          "value": 5
+        },
+        {
+          "id": 55462,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 138,
+          "value": 9
+        },
+        {
+          "id": 55467,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 142,
+          "value": 5
+        },
+        {
+          "id": 55468,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 143,
+          "value": 4
+        },
+        {
+          "id": 55469,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 144,
+          "value": 10
+        },
+        {
+          "id": 55470,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 186,
+          "value": 19
+        },
+        {
+          "id": 238232598,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 146,
+          "value": 41
+        },
+        {
+          "id": 55471,
+          "standing_type": "standing",
+          "standing_id": 160,
+          "type_id": 179,
+          "value": -23
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "participant_id": 1,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "round_id": 563,
+      "standing_rule_id": 108187,
+      "position": 20,
+      "result": "equal",
+      "points": 33,
+      "participant": {
+        "id": 1,
+        "sport_id": 1,
+        "country_id": 462,
+        "venue_id": 214,
+        "gender": "male",
+        "name": "West Ham United",
+        "short_code": "WHU",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/1.png",
+        "founded": 1895,
+        "type": "domestic",
+        "placeholder": false,
+        "last_played_at": "2026-01-31 17:30:00"
+      },
+      "details": [
+        {
+          "id": 55948,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 129,
+          "value": 38
+        },
+        {
+          "id": 55949,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 130,
+          "value": 7
+        },
+        {
+          "id": 55957,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 176,
+          "value": 0
+        },
+        {
+          "id": 55962,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 144,
+          "value": 10
+        },
+        {
+          "id": 55963,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 186,
+          "value": 13
+        },
+        {
+          "id": 55964,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 179,
+          "value": -27
+        },
+        {
+          "id": 200012050,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 133,
+          "value": 43
+        },
+        {
+          "id": 55951,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 132,
+          "value": 19
+        },
+        {
+          "id": 55952,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 135,
+          "value": 19
+        },
+        {
+          "id": 55956,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 185,
+          "value": 20
+        },
+        {
+          "id": 55958,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 187,
+          "value": 33
+        },
+        {
+          "id": 55959,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 141,
+          "value": 19
+        },
+        {
+          "id": 55960,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 142,
+          "value": 2
+        },
+        {
+          "id": 200012051,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 134,
+          "value": 70
+        },
+        {
+          "id": 55950,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 131,
+          "value": 12
+        },
+        {
+          "id": 55953,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 136,
+          "value": 5
+        },
+        {
+          "id": 55954,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 137,
+          "value": 5
+        },
+        {
+          "id": 55955,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 138,
+          "value": 9
+        },
+        {
+          "id": 238233098,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 139,
+          "value": 24
+        },
+        {
+          "id": 238233169,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 140,
+          "value": 31
+        },
+        {
+          "id": 55961,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 143,
+          "value": 7
+        },
+        {
+          "id": 238233178,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 145,
+          "value": 19
+        },
+        {
+          "id": 238233180,
+          "standing_type": "standing",
+          "standing_id": 173,
+          "type_id": 146,
+          "value": 39
+        }
+      ]
+    }
+  ],
+  "subscription": [
+    {
+      "meta": {
+        "trial_ends_at": "2026-01-23 15:49:29",
+        "ends_at": "2026-02-23 15:49:29",
+        "current_timestamp": 1769903636
+      },
+      "plans": [
+        {
+          "plan": "Mihai Cazacu Custom Plan 2",
+          "sport": "Football",
+          "category": "Custom"
+        }
+      ],
+      "add_ons": [],
+      "widgets": []
+    }
+  ],
+  "rate_limit": {
+    "resets_in_seconds": 3600,
+    "remaining": 2999,
+    "requested_entity": "Standing"
+  },
+  "timezone": "UTC"
+}

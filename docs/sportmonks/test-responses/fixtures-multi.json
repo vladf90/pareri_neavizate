@@ -1,0 +1,649 @@
+{
+  "data": [
+    {
+      "id": 463,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "aggregate_id": null,
+      "round_id": 43,
+      "state_id": 5,
+      "venue_id": 209,
+      "name": "Tottenham Hotspur vs Manchester City",
+      "starting_at": "2010-08-14 11:45:00",
+      "result_info": "Game ended in draw.",
+      "leg": "1/1",
+      "details": null,
+      "length": 90,
+      "placeholder": false,
+      "has_odds": false,
+      "has_premium_odds": false,
+      "starting_at_timestamp": 1281786300,
+      "participants": [
+        {
+          "id": 6,
+          "sport_id": 1,
+          "country_id": 462,
+          "venue_id": 281313,
+          "gender": "male",
+          "name": "Tottenham Hotspur",
+          "short_code": "TOT",
+          "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png",
+          "founded": 1882,
+          "type": "domestic",
+          "placeholder": false,
+          "last_played_at": "2026-01-28 20:00:00",
+          "meta": {
+            "location": "home",
+            "winner": false,
+            "position": null
+          }
+        },
+        {
+          "id": 9,
+          "sport_id": 1,
+          "country_id": 462,
+          "venue_id": 151,
+          "gender": "male",
+          "name": "Manchester City",
+          "short_code": "MCI",
+          "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
+          "founded": 1880,
+          "type": "domestic",
+          "placeholder": false,
+          "last_played_at": "2026-01-28 20:00:00",
+          "meta": {
+            "location": "away",
+            "winner": false,
+            "position": null
+          }
+        }
+      ],
+      "scores": [
+        {
+          "id": 15510520,
+          "fixture_id": 463,
+          "type_id": 48996,
+          "participant_id": 6,
+          "score": {
+            "goals": 0,
+            "participant": "home"
+          },
+          "description": "2ND_HALF_ONLY"
+        },
+        {
+          "id": 15510521,
+          "fixture_id": 463,
+          "type_id": 48996,
+          "participant_id": 9,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "2ND_HALF_ONLY"
+        },
+        {
+          "id": 2898,
+          "fixture_id": 463,
+          "type_id": 1525,
+          "participant_id": 9,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "CURRENT"
+        },
+        {
+          "id": 2893,
+          "fixture_id": 463,
+          "type_id": 1,
+          "participant_id": 6,
+          "score": {
+            "goals": 0,
+            "participant": "home"
+          },
+          "description": "1ST_HALF"
+        },
+        {
+          "id": 2894,
+          "fixture_id": 463,
+          "type_id": 1,
+          "participant_id": 9,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "1ST_HALF"
+        },
+        {
+          "id": 2895,
+          "fixture_id": 463,
+          "type_id": 2,
+          "participant_id": 6,
+          "score": {
+            "goals": 0,
+            "participant": "home"
+          },
+          "description": "2ND_HALF"
+        },
+        {
+          "id": 2896,
+          "fixture_id": 463,
+          "type_id": 2,
+          "participant_id": 9,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "2ND_HALF"
+        },
+        {
+          "id": 2897,
+          "fixture_id": 463,
+          "type_id": 1525,
+          "participant_id": 6,
+          "score": {
+            "goals": 0,
+            "participant": "home"
+          },
+          "description": "CURRENT"
+        }
+      ],
+      "state": {
+        "id": 5,
+        "state": "FT",
+        "name": "Full Time",
+        "short_name": "FT",
+        "developer_name": "FT"
+      },
+      "periods": [
+        {
+          "id": 666239,
+          "fixture_id": 463,
+          "type_id": 1,
+          "started": 1281786300,
+          "ended": 1281789000,
+          "counts_from": 0,
+          "ticking": false,
+          "sort_order": 1,
+          "description": "1st-half",
+          "time_added": 0,
+          "period_length": 45,
+          "minutes": 45,
+          "seconds": 0,
+          "has_timer": false
+        },
+        {
+          "id": 666240,
+          "fixture_id": 463,
+          "type_id": 2,
+          "started": null,
+          "ended": null,
+          "counts_from": 45,
+          "ticking": false,
+          "sort_order": 2,
+          "description": "2nd-half",
+          "time_added": null,
+          "period_length": 45,
+          "minutes": 45,
+          "seconds": 0,
+          "has_timer": false
+        }
+      ],
+      "league": {
+        "id": 8,
+        "sport_id": 1,
+        "country_id": 462,
+        "name": "Premier League",
+        "active": true,
+        "short_code": "UK PL",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png",
+        "type": "league",
+        "sub_type": "domestic",
+        "last_played_at": "2026-01-31 20:00:00",
+        "category": 1,
+        "has_jerseys": false
+      }
+    },
+    {
+      "id": 464,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 3,
+      "stage_id": 3,
+      "group_id": null,
+      "aggregate_id": null,
+      "round_id": 44,
+      "state_id": 5,
+      "venue_id": 230,
+      "name": "Liverpool vs Stoke City",
+      "starting_at": "2013-08-17 11:45:00",
+      "result_info": "Liverpool won after full-time.",
+      "leg": "1/1",
+      "details": null,
+      "length": 90,
+      "placeholder": false,
+      "has_odds": false,
+      "has_premium_odds": false,
+      "starting_at_timestamp": 1376739900,
+      "participants": [
+        {
+          "id": 8,
+          "sport_id": 1,
+          "country_id": 462,
+          "venue_id": 230,
+          "gender": "male",
+          "name": "Liverpool",
+          "short_code": "LIV",
+          "image_path": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png",
+          "founded": 1892,
+          "type": "domestic",
+          "placeholder": false,
+          "last_played_at": "2026-01-31 20:00:00",
+          "meta": {
+            "location": "home",
+            "winner": true,
+            "position": null
+          }
+        },
+        {
+          "id": 26,
+          "sport_id": 1,
+          "country_id": 462,
+          "venue_id": 207,
+          "gender": "male",
+          "name": "Stoke City",
+          "short_code": "STK",
+          "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/26.png",
+          "founded": 1868,
+          "type": "domestic",
+          "placeholder": false,
+          "last_played_at": "2026-01-31 12:30:00",
+          "meta": {
+            "location": "away",
+            "winner": false,
+            "position": null
+          }
+        }
+      ],
+      "scores": [
+        {
+          "id": 2899,
+          "fixture_id": 464,
+          "type_id": 1,
+          "participant_id": 8,
+          "score": {
+            "goals": 1,
+            "participant": "home"
+          },
+          "description": "1ST_HALF"
+        },
+        {
+          "id": 2900,
+          "fixture_id": 464,
+          "type_id": 1,
+          "participant_id": 26,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "1ST_HALF"
+        },
+        {
+          "id": 2901,
+          "fixture_id": 464,
+          "type_id": 2,
+          "participant_id": 8,
+          "score": {
+            "goals": 1,
+            "participant": "home"
+          },
+          "description": "2ND_HALF"
+        },
+        {
+          "id": 2902,
+          "fixture_id": 464,
+          "type_id": 2,
+          "participant_id": 26,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "2ND_HALF"
+        },
+        {
+          "id": 2903,
+          "fixture_id": 464,
+          "type_id": 1525,
+          "participant_id": 8,
+          "score": {
+            "goals": 1,
+            "participant": "home"
+          },
+          "description": "CURRENT"
+        },
+        {
+          "id": 2904,
+          "fixture_id": 464,
+          "type_id": 1525,
+          "participant_id": 26,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "CURRENT"
+        },
+        {
+          "id": 15510522,
+          "fixture_id": 464,
+          "type_id": 48996,
+          "participant_id": 8,
+          "score": {
+            "goals": 0,
+            "participant": "home"
+          },
+          "description": "2ND_HALF_ONLY"
+        },
+        {
+          "id": 15510523,
+          "fixture_id": 464,
+          "type_id": 48996,
+          "participant_id": 26,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "2ND_HALF_ONLY"
+        }
+      ],
+      "state": {
+        "id": 5,
+        "state": "FT",
+        "name": "Full Time",
+        "short_name": "FT",
+        "developer_name": "FT"
+      },
+      "periods": [
+        {
+          "id": 666241,
+          "fixture_id": 464,
+          "type_id": 1,
+          "started": 1376739900,
+          "ended": 1376742600,
+          "counts_from": 0,
+          "ticking": false,
+          "sort_order": 1,
+          "description": "1st-half",
+          "time_added": 0,
+          "period_length": 45,
+          "minutes": 45,
+          "seconds": 0,
+          "has_timer": false
+        },
+        {
+          "id": 666242,
+          "fixture_id": 464,
+          "type_id": 2,
+          "started": 1376743500,
+          "ended": 1376746200,
+          "counts_from": 45,
+          "ticking": false,
+          "sort_order": 2,
+          "description": "2nd-half",
+          "time_added": 0,
+          "period_length": 45,
+          "minutes": 90,
+          "seconds": 0,
+          "has_timer": false
+        }
+      ],
+      "league": {
+        "id": 8,
+        "sport_id": 1,
+        "country_id": 462,
+        "name": "Premier League",
+        "active": true,
+        "short_code": "UK PL",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png",
+        "type": "league",
+        "sub_type": "domestic",
+        "last_played_at": "2026-01-31 20:00:00",
+        "category": 1,
+        "has_jerseys": false
+      }
+    },
+    {
+      "id": 465,
+      "sport_id": 1,
+      "league_id": 8,
+      "season_id": 2,
+      "stage_id": 2,
+      "group_id": null,
+      "aggregate_id": null,
+      "round_id": 43,
+      "state_id": 5,
+      "venue_id": 5,
+      "name": "Aston Villa vs West Ham United",
+      "starting_at": "2010-08-14 14:00:00",
+      "result_info": "Aston Villa won after full-time.",
+      "leg": "1/1",
+      "details": null,
+      "length": 90,
+      "placeholder": false,
+      "has_odds": false,
+      "has_premium_odds": false,
+      "starting_at_timestamp": 1281794400,
+      "participants": [
+        {
+          "id": 1,
+          "sport_id": 1,
+          "country_id": 462,
+          "venue_id": 214,
+          "gender": "male",
+          "name": "West Ham United",
+          "short_code": "WHU",
+          "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/1.png",
+          "founded": 1895,
+          "type": "domestic",
+          "placeholder": false,
+          "last_played_at": "2026-01-31 17:30:00",
+          "meta": {
+            "location": "away",
+            "winner": false,
+            "position": null
+          }
+        },
+        {
+          "id": 15,
+          "sport_id": 1,
+          "country_id": 462,
+          "venue_id": 5,
+          "gender": "male",
+          "name": "Aston Villa",
+          "short_code": "AVL",
+          "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/15.png",
+          "founded": 1874,
+          "type": "domestic",
+          "placeholder": false,
+          "last_played_at": "2026-01-29 20:00:00",
+          "meta": {
+            "location": "home",
+            "winner": true,
+            "position": null
+          }
+        }
+      ],
+      "scores": [
+        {
+          "id": 2905,
+          "fixture_id": 465,
+          "type_id": 1,
+          "participant_id": 15,
+          "score": {
+            "goals": 2,
+            "participant": "home"
+          },
+          "description": "1ST_HALF"
+        },
+        {
+          "id": 2906,
+          "fixture_id": 465,
+          "type_id": 1,
+          "participant_id": 1,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "1ST_HALF"
+        },
+        {
+          "id": 2909,
+          "fixture_id": 465,
+          "type_id": 1525,
+          "participant_id": 15,
+          "score": {
+            "goals": 3,
+            "participant": "home"
+          },
+          "description": "CURRENT"
+        },
+        {
+          "id": 2908,
+          "fixture_id": 465,
+          "type_id": 2,
+          "participant_id": 1,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "2ND_HALF"
+        },
+        {
+          "id": 2907,
+          "fixture_id": 465,
+          "type_id": 2,
+          "participant_id": 15,
+          "score": {
+            "goals": 3,
+            "participant": "home"
+          },
+          "description": "2ND_HALF"
+        },
+        {
+          "id": 2910,
+          "fixture_id": 465,
+          "type_id": 1525,
+          "participant_id": 1,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "CURRENT"
+        },
+        {
+          "id": 15510524,
+          "fixture_id": 465,
+          "type_id": 48996,
+          "participant_id": 1,
+          "score": {
+            "goals": 0,
+            "participant": "away"
+          },
+          "description": "2ND_HALF_ONLY"
+        },
+        {
+          "id": 15510525,
+          "fixture_id": 465,
+          "type_id": 48996,
+          "participant_id": 15,
+          "score": {
+            "goals": 1,
+            "participant": "home"
+          },
+          "description": "2ND_HALF_ONLY"
+        }
+      ],
+      "state": {
+        "id": 5,
+        "state": "FT",
+        "name": "Full Time",
+        "short_name": "FT",
+        "developer_name": "FT"
+      },
+      "periods": [
+        {
+          "id": 666243,
+          "fixture_id": 465,
+          "type_id": 1,
+          "started": 1281794400,
+          "ended": 1281797100,
+          "counts_from": 0,
+          "ticking": false,
+          "sort_order": 1,
+          "description": "1st-half",
+          "time_added": 0,
+          "period_length": 45,
+          "minutes": 45,
+          "seconds": 0,
+          "has_timer": false
+        },
+        {
+          "id": 666244,
+          "fixture_id": 465,
+          "type_id": 2,
+          "started": 1281798000,
+          "ended": 1281800700,
+          "counts_from": 45,
+          "ticking": false,
+          "sort_order": 2,
+          "description": "2nd-half",
+          "time_added": null,
+          "period_length": 45,
+          "minutes": 90,
+          "seconds": 0,
+          "has_timer": false
+        }
+      ],
+      "league": {
+        "id": 8,
+        "sport_id": 1,
+        "country_id": 462,
+        "name": "Premier League",
+        "active": true,
+        "short_code": "UK PL",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png",
+        "type": "league",
+        "sub_type": "domestic",
+        "last_played_at": "2026-01-31 20:00:00",
+        "category": 1,
+        "has_jerseys": false
+      }
+    }
+  ],
+  "subscription": [
+    {
+      "meta": {
+        "trial_ends_at": "2026-01-23 15:49:29",
+        "ends_at": "2026-02-23 15:49:29",
+        "current_timestamp": 1769903637
+      },
+      "plans": [
+        {
+          "plan": "Mihai Cazacu Custom Plan 2",
+          "sport": "Football",
+          "category": "Custom"
+        }
+      ],
+      "add_ons": [],
+      "widgets": []
+    }
+  ],
+  "rate_limit": {
+    "resets_in_seconds": 3599,
+    "remaining": 2996,
+    "requested_entity": "Fixture"
+  },
+  "timezone": "UTC"
+}

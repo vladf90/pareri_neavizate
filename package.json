@@ -1,0 +1,45 @@
+{
+  "name": "parerineavizate-2.0",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,green \"pnpm run dev:server\" \"pnpm run dev:client\"",
+    "dev:server": "pnpm --filter @parerineavizate/server dev",
+    "dev:client": "pnpm --filter @parerineavizate/client dev",
+    "build": "pnpm -r build",
+    "build:shared": "pnpm --filter @parerineavizate/shared build",
+    "build:server": "pnpm --filter @parerineavizate/server build",
+    "build:client": "pnpm --filter @parerineavizate/client build",
+    "start": "pnpm --filter @parerineavizate/server start",
+    "test": "pnpm -r test",
+    "test:server": "pnpm --filter @parerineavizate/server test",
+    "test:client": "pnpm --filter @parerineavizate/client test",
+    "test:coverage": "pnpm -r test:coverage",
+    "type-check": "pnpm -r exec tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,json}\"",
+    "clean": "pnpm -r exec rm -rf dist",
+    "prebuild": "pnpm run build:shared"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/ws": "^8.18.1",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "prettier": "^3.8.1",
+    "typescript": "^5.3.3",
+    "ws": "^8.19.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1"
+  }
+}

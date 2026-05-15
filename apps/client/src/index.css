@@ -1,0 +1,237 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==================== HD/4K QUALITY RENDERING ==================== */
+
+/* Force high-quality rendering for entire app */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
+}
+
+/* High-quality image rendering for all images */
+img, svg {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* Team logos - extra sharp rendering */
+img[alt*="Team"], 
+img[alt*="Logo"],
+img.team-logo,
+img.crest {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+/* GPU-accelerated containers for smooth animations */
+.gpu-accelerated,
+[class*="Widget"],
+[class*="widget"] {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform, opacity;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Crisp text rendering */
+.crisp-text {
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* High-quality logos - prevent pixelation */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0);
+}
+
+/* Smooth scaling for all images */
+img[src*=".png"],
+img[src*=".jpg"],
+img[src*=".jpeg"],
+img[src*=".webp"] {
+  image-rendering: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* Force anti-aliasing on all elements */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==================== BASE STYLES ==================== */
+
+:root {
+  /* Default theme tokens (UCL) */
+  --color-bg0: #0a0a1a;
+  --color-bg1: #121228;
+  --color-panel: rgba(20, 20, 50, 0.85);
+  --color-text: #ffffff;
+  --color-muted: #a0a0b0;
+  --color-accent: #1e90ff;
+  --color-accent2: #00d4ff;
+  --color-danger: #ff4444;
+  --color-success: #00cc66;
+  --color-warning: #ffaa00;
+  --color-stroke: rgba(255, 255, 255, 0.1);
+
+  --font-display: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-weight-display: 700;
+  --font-weight-body: 400;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-hard: 0 2px 8px rgba(0, 0, 0, 0.5);
+  --glow-accent: 0 0 20px rgba(30, 144, 255, 0.4);
+
+  --glass-bg: rgba(20, 20, 50, 0.7);
+  --glass-blur: 12px;
+  --glass-border: rgba(255, 255, 255, 0.1);
+
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+  --easing-enter: cubic-bezier(0.0, 0.0, 0.2, 1);
+  --easing-exit: cubic-bezier(0.4, 0.0, 1, 1);
+}
+
+/* PL Theme */
+[data-theme="PL"] {
+  --color-bg0: #1a0030;
+  --color-bg1: #280040;
+  --color-panel: rgba(40, 0, 70, 0.9);
+  --color-text: #ffffff;
+  --color-muted: #b0a0c0;
+  --color-accent: #ff2882;
+  --color-accent2: #00ff85;
+  --color-danger: #ff4444;
+  --color-success: #00ff85;
+  --color-warning: #ffcc00;
+  --color-stroke: rgba(255, 255, 255, 0.15);
+
+  --glow-accent: 0 0 24px rgba(255, 40, 130, 0.5);
+  --glass-bg: rgba(40, 0, 70, 0.75);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-body);
+  color: var(--color-text);
+  background: var(--color-bg0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* GPU acceleration for all animated elements - prevents flicker */
+[style*="animation"],
+.animate-spin,
+.animate-pulse {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* Tabular numbers utility */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Fixed width digits for score */
+.digits-score {
+  font-variant-numeric: tabular-nums;
+  font-weight: var(--font-weight-display);
+  min-width: 1.5ch;
+  text-align: center;
+}
+
+/* Fixed width for clock */
+.digits-clock {
+  font-variant-numeric: tabular-nums;
+  font-weight: var(--font-weight-display);
+  min-width: 4ch;
+  text-align: center;
+}
+
+/* ==================== OBS BROADCAST QUALITY ==================== */
+
+/* Force hardware acceleration for all motion elements */
+[class*="motion"],
+[data-framer-appear],
+[data-projection-id] {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Broadcast-quality backdrop filters */
+[class*="backdrop-blur"] {
+  -webkit-backdrop-filter: blur(var(--tw-backdrop-blur));
+  backdrop-filter: blur(var(--tw-backdrop-blur));
+  transform: translateZ(0);
+}
+
+/* Prevent subpixel rendering issues in OBS */
+.widget-container,
+[class*="Widget"] {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  filter: none;
+  isolation: isolate;
+}
+
+/* Font rendering optimized for broadcast */
+.font-bebas,
+.font-montserrat {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "kern" 1;
+}
+
+/* ==================== PERFORMANCE ANIMATIONS ==================== */
+
+/* Progress bar animation - GPU optimized */
+@keyframes progressBar {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+/* Smooth pulse animation */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}

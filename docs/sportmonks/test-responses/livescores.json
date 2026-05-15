@@ -1,0 +1,27 @@
+{
+  "message": "No result(s) found matching your request. Either the query did not return any results or you don't have access to it via your current subscription.",
+  "subscription": [
+    {
+      "meta": {
+        "trial_ends_at": "2026-01-23 15:49:29",
+        "ends_at": "2026-02-23 15:49:29",
+        "current_timestamp": 1769903636
+      },
+      "plans": [
+        {
+          "plan": "Mihai Cazacu Custom Plan 2",
+          "sport": "Football",
+          "category": "Custom"
+        }
+      ],
+      "add_ons": [],
+      "widgets": []
+    }
+  ],
+  "rate_limit": {
+    "resets_in_seconds": 3600,
+    "remaining": 2999,
+    "requested_entity": "Fixture"
+  },
+  "timezone": "UTC"
+}

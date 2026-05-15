@@ -1,0 +1,35 @@
+{
+  "name": "@parerineavizate/shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./models": {
+      "import": "./dist/models.js",
+      "types": "./dist/models.d.ts"
+    },
+    "./wsEvents": {
+      "import": "./dist/wsEvents.js",
+      "types": "./dist/wsEvents.d.ts"
+    },
+    "./constants": {
+      "import": "./dist/constants.js",
+      "types": "./dist/constants.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  }
+}
