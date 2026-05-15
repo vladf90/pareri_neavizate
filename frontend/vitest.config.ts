@@ -26,8 +26,8 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      "@parerineavizate/shared": path.resolve(__dirname, "../../packages/shared/src"),
-      "@pn/shared": path.resolve(__dirname, "../../packages/shared/src"),
+      "@parerineavizate/shared": path.resolve(__dirname, "../shared/src"),
+      "@pn/shared": path.resolve(__dirname, "../shared/src"),
     },
   },
 });

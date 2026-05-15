@@ -1,10 +1,10 @@
 # watchalong-graphics — doc pack
 
-Acest folder conține documentația + tipurile shared (packages/shared) pentru proiect.
+Acest folder conține documentația + tipurile shared (shared) pentru proiect.
 
 ## Ce include
 - `docs/*.md` — specificație + arhitectură + WS + SportMonks + design system + TipeeStream + prompt final
-- `packages/shared/src/*` — internal models + WS events + constants
+- `shared/src/*` — internal models + WS events + constants
 - `.env.example`
 
 ## Overlays Disponibile

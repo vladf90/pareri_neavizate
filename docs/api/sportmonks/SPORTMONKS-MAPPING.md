@@ -1,7 +1,7 @@
 # SportMonks → Internal Model Mapping (v1)
 
 ## Goal
-Map SportMonks Football API v3 into the Internal Model defined in packages/shared/models.ts
+Map SportMonks Football API v3 into the Internal Model defined in shared/models.ts
 
 ---
 

@@ -8,14 +8,14 @@ Create a pnpm-workspaces monorepo with:
 - `apps/admin` = Vite + React + TS + Tailwind
 - `apps/overlays` = Vite + React + TS + Tailwind (transparent widgets)
 - `server` = Node.js + TS (Fastify preferred) + ws (WebSocket)
-- `packages/shared` = TS library with path aliases
+- `shared` = TS library with path aliases
 
 Add eslint + prettier + tsconfig references. Provide scripts:
 `dev`, `build`, `lint`, `typecheck`.
 
 ## Phase 1 – Shared contracts
 **Prompt:**
-In `packages/shared`, define:
+In `shared`, define:
 - DTOs for `ScoreboardDTO`, `LiveStatsDTO`, `TickerItemDTO`, `StandingsRowDTO`, `LineupDTO`
 - WS channel naming helpers
 - Zod schemas for each DTO (validate at runtime)

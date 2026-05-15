@@ -78,7 +78,7 @@ repo/
   - `/master/:overlayId` (optional – can also be external HTML that embeds widget iframes)
 - All routes render transparent backgrounds and no scrollbars.
 
-## Shared types (`packages/shared`)
+## Shared types (`shared`)
 - `sportmonks.types.ts` (raw minimal)
 - `dto.ts` (normalized payloads)
 - `channels.ts` (WS channel naming)

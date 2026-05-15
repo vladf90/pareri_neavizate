@@ -8,7 +8,7 @@ import { z } from "zod";
 import path from "path";
 import { fileURLToPath } from "url";
 
-// Load .env from packages/server/ (one level up from src/ or dist/)
+// Load .env from backend/ (one level up from src/ or dist/)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const serverPkgDir = path.resolve(__dirname, "..");

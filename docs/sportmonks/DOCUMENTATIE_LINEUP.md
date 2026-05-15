@@ -21,7 +21,7 @@ Sistemul de lineup-uri afișează formația echipelor, jucătorii titulari, antr
 
 ### 1. Server-Side: Polling SportMonks API
 
-**Fișier:** `packages/server/src/pollers/fixturePoller.js`
+**Fișier:** `backend/src/pollers/fixturePoller.js`
 
 #### Procesul de citire:
 
@@ -87,7 +87,7 @@ export const useLineupData = (fixtureId, isAway) => {
 
 ### DTO pentru Lineup-uri
 
-**Fișier:** `packages/shared/src/dto/fixtureCore.dto.js`
+**Fișier:** `shared/src/dto/fixtureCore.dto.js`
 
 #### Structura unui jucător din lineup:
 
@@ -499,12 +499,12 @@ const positions = FORMATION_POSITIONS[formation] || FORMATION_POSITIONS['4-3-3']
 ### Pașii detaliați:
 
 #### 1. Polling API (Server)
-- **Fișier:** `packages/server/src/pollers/fixturePoller.js`
+- **Fișier:** `backend/src/pollers/fixturePoller.js`
 - **Frecvență:** 1.5s (live) / 10s (pending)
 - **Include:** formations, lineups, coaches, participants
 
 #### 2. Mapare DTO (Server)
-- **Fișier:** `packages/shared/src/dto/fixtureCore.dto.js`
+- **Fișier:** `shared/src/dto/fixtureCore.dto.js`
 - **Transformări:**
   - Extrage lineup-uri per echipă
   - Filtrează titulari (typeId === 11)
@@ -563,8 +563,8 @@ const positions = FORMATION_POSITIONS[formation] || FORMATION_POSITIONS['4-3-3']
 |----------------|--------|-------|
 | **Widget principal** | `packages/web/src/app/widgets/LineupWidget.jsx` | - |
 | **Hook de date** | `packages/web/src/app/hooks/useOverlayData.js` | 183 (manager) |
-| **DTO mapping** | `packages/shared/src/dto/fixtureCore.dto.js` | - |
-| **Polling API** | `packages/server/src/pollers/fixturePoller.js` | - |
+| **DTO mapping** | `shared/src/dto/fixtureCore.dto.js` | - |
+| **Polling API** | `backend/src/pollers/fixturePoller.js` | - |
 | **WebSocket client** | `packages/web/src/app/store/wsClient.js` | - |
 | **Admin controls** | `packages/web/src/pages/AdminPage.jsx` | - |
 | **Design system** | `packages/web/src/styles/designSystem.js` | - |

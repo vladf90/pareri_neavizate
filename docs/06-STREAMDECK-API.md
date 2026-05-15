@@ -273,7 +273,7 @@ Invoke-RestMethod -Uri "http://localhost:3001/api/gfx/trigger/triggerGoalAlert" 
 
 1. **State Persistence**: All toggle changes are persisted to `data/state.json`
 2. **WebSocket Sync**: Changes trigger `server:stateUpdate` to all connected clients
-3. **Extensibility**: Add new GFX by updating `GFX_REGISTRY` in `packages/shared/src/models.ts`
+3. **Extensibility**: Add new GFX by updating `GFX_REGISTRY` in `shared/src/models.ts`
 4. **Rate Limiting**: API endpoints are rate-limited (see middleware config)
 
 ---

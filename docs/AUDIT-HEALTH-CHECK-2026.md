@@ -54,9 +54,9 @@
 
 1. ✅ **Șters `@types/express-rate-limit`** - Dependență deprecated eliminată
 2. ✅ **Update pachete TypeScript ESLint** - `@typescript-eslint/eslint-plugin` și `@typescript-eslint/parser` actualizate
-3. ✅ **Adăugat tipuri `PlayerDetails` și `VersusData`** în `packages/shared/src/models.ts`
+3. ✅ **Adăugat tipuri `PlayerDetails` și `VersusData`** în `shared/src/models.ts`
 4. ✅ **Fixat `any` în `WsServer.ts`** - `player1` și `player2` folosesc acum `PlayerDetails | null`
-5. ✅ **Adăugat tipuri SportMonks** în `packages/server/src/providers/sportmonks/types.ts`:
+5. ✅ **Adăugat tipuri SportMonks** în `backend/src/providers/sportmonks/types.ts`:
    - `SMSquadPlayer`, `SMSquadResponse`
    - `SMPlayerData`, `SMPlayerResponse`, `SMPlayerStatistic`, `SMPlayerStatisticDetail`
 6. ✅ **Fixat `any` în `routes.ts`** - Squad și player endpoints folosesc tipuri proprii
@@ -144,7 +144,7 @@ pnpm update axios lru-cache lucide-react happy-dom @typescript-eslint/eslint-plu
 
 ```bash
 # 1. Șterge dependența deprecated (PRIORITATE MAXIMĂ)
-cd packages/server
+cd backend
 pnpm remove @types/express-rate-limit
 
 # 2. Update pachete patch/minor (SAFE)
@@ -165,21 +165,21 @@ pnpm update -D @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
 | Fișier | Linie | Context | Prioritate |
 |--------|-------|---------|------------|
-| `packages/server/src/ws/WsServer.ts` | 203-204 | `player1?: any; player2?: any` | 🔴 High - DE FIXAT |
-| `packages/server/src/providers/sportmonks/SportMonksProvider.ts` | 71 | `simpleHash(obj: any)` | 🟡 Medium |
-| `packages/server/src/providers/sportmonks/SportMonksProvider.ts` | 426-427 | `p: any` find | 🟡 Medium |
-| `packages/server/src/validation/__tests__/schemas.test.ts` | 212, 235 | Test assertions | 🟢 Low (intentional) |
+| `backend/src/ws/WsServer.ts` | 203-204 | `player1?: any; player2?: any` | 🔴 High - DE FIXAT |
+| `backend/src/providers/sportmonks/SportMonksProvider.ts` | 71 | `simpleHash(obj: any)` | 🟡 Medium |
+| `backend/src/providers/sportmonks/SportMonksProvider.ts` | 426-427 | `p: any` find | 🟡 Medium |
+| `backend/src/validation/__tests__/schemas.test.ts` | 212, 235 | Test assertions | 🟢 Low (intentional) |
 
 ### Client Package (6 locații)
 
 | Fișier | Linie | Context | Prioritate |
 |--------|-------|---------|------------|
-| `apps/client/src/pages/AdminPage.tsx` | 754 | `(appState as any)?.resolume` | 🟡 Medium |
-| `apps/client/src/pages/AdminPage.tsx` | 1018 | `e.target.value as any` | 🟢 Low |
-| `apps/client/src/pages/AdminPage.tsx` | 1112 | `null as any` | 🟢 Low |
-| `apps/client/src/pages/OverlayMasterPage.tsx` | 98-100 | `message: any` casting | 🟡 Medium |
-| `apps/client/src/pages/OverlayStartingSoonPage.tsx` | 100 | `overlay: "startingsoon" as any` | 🟢 Low |
-| `apps/client/src/hooks/useOverlayConnection.ts` | 49 | `overlay: overlayName as any` | 🟢 Low |
+| `frontend/src/pages/AdminPage.tsx` | 754 | `(appState as any)?.resolume` | 🟡 Medium |
+| `frontend/src/pages/AdminPage.tsx` | 1018 | `e.target.value as any` | 🟢 Low |
+| `frontend/src/pages/AdminPage.tsx` | 1112 | `null as any` | 🟢 Low |
+| `frontend/src/pages/OverlayMasterPage.tsx` | 98-100 | `message: any` casting | 🟡 Medium |
+| `frontend/src/pages/OverlayStartingSoonPage.tsx` | 100 | `overlay: "startingsoon" as any` | 🟢 Low |
+| `frontend/src/hooks/useOverlayConnection.ts` | 49 | `overlay: overlayName as any` | 🟢 Low |
 
 ### 📊 Progres Type Safety
 
@@ -198,7 +198,7 @@ Target (Sprint 2):     5 any  █████                         18%
 
 #### 1. WidgetDataCache - Caching Strategy
 
-**Fișier:** `packages/server/src/services/WidgetDataCache.ts`
+**Fișier:** `backend/src/services/WidgetDataCache.ts`
 
 ```
 Strategia de caching pentru minimal API requests:
@@ -220,7 +220,7 @@ Strategia de caching pentru minimal API requests:
 
 #### 2. Polling Architecture
 
-**Fișier:** `packages/server/src/polling/PollingManager.ts`
+**Fișier:** `backend/src/polling/PollingManager.ts`
 
 ```
 Arhitectura optimizată v2:
@@ -245,7 +245,7 @@ Beneficii:
 
 #### 3. WebSocket Reconnect Logic
 
-**Fișier:** `apps/client/src/ws/WsClient.ts`
+**Fișier:** `frontend/src/ws/WsClient.ts`
 
 ```typescript
 // Exponential backoff cu jitter
@@ -261,7 +261,7 @@ MAX_RECONNECT_ATTEMPTS = 20
 
 #### 4. Zustand Store cu Selectors Granulari
 
-**Fișier:** `apps/client/src/store/appStore.ts`
+**Fișier:** `frontend/src/store/appStore.ts`
 
 ```typescript
 // Bună practică - evită re-renders
@@ -277,15 +277,15 @@ const connectionStatus = useAppStore((s) => s.connectionStatus);
 
 | Fișier | Linii | Problema | Soluție |
 |--------|-------|----------|---------|
-| `apps/client/src/pages/AdminPage.tsx` | 1644 | Prea mare, greu de menținut | Split în componente |
-| `apps/client/src/store/appStore.ts` | 438 | Store monolitic | Consideră slices |
-| `packages/server/src/services/WidgetDataCache.ts` | 937 | Complex dar acceptabil | Modularizare opțională |
-| `packages/shared/src/models.ts` | 608 | Multe tipuri | Split pe domenii |
+| `frontend/src/pages/AdminPage.tsx` | 1644 | Prea mare, greu de menținut | Split în componente |
+| `frontend/src/store/appStore.ts` | 438 | Store monolitic | Consideră slices |
+| `backend/src/services/WidgetDataCache.ts` | 937 | Complex dar acceptabil | Modularizare opțională |
+| `shared/src/models.ts` | 608 | Multe tipuri | Split pe domenii |
 
 ### ✅ Plan de Refactoring pentru AdminPage.tsx
 
 ```
-apps/client/src/pages/
+frontend/src/pages/
 ├── AdminPage.tsx (orchestrator, ~100 lines)
 └── admin/
     ├── index.ts
@@ -303,8 +303,8 @@ apps/client/src/pages/
 
 ### ✅ Structuri Bune (De Păstrat)
 
-- ✅ Monorepo curat: `packages/server`, `packages/shared`, `apps/client`
-- ✅ Hooks custom bine organizate în `apps/client/src/hooks/`
+- ✅ Monorepo curat: `backend`, `shared`, `frontend`
+- ✅ Hooks custom bine organizate în `frontend/src/hooks/`
 - ✅ Provider pattern în server pentru data sources
 - ✅ Separare clară WebSocket logic
 - ✅ Config centralizat cu Zod validation
@@ -340,7 +340,7 @@ apps/client/src/pages/
 1. **WebSocket Logic** - `WsClient.ts`, `WsServer.ts`
 2. **Store Actions** - Toate acțiunile din `appStore.ts`
 3. **Overlay Components** - Critical pentru broadcast
-4. **API Routes** - `packages/server/src/http/routes.ts`
+4. **API Routes** - `backend/src/http/routes.ts`
 5. **Polling Logic** - `PollingManager.ts`
 6. **Cache Logic** - `WidgetDataCache.ts`
 
@@ -349,7 +349,7 @@ apps/client/src/pages/
 #### Prioritate 1: Critical Business Logic
 
 ```typescript
-// packages/server/src/services/__tests__/WidgetDataCache.test.ts
+// backend/src/services/__tests__/WidgetDataCache.test.ts
 describe('WidgetDataCache', () => {
   it('should cache standings for 5 minutes');
   it('should cache H2H for 24 hours');
@@ -361,7 +361,7 @@ describe('WidgetDataCache', () => {
 #### Prioritate 2: WebSocket
 
 ```typescript
-// apps/client/src/ws/__tests__/WsClient.test.ts
+// frontend/src/ws/__tests__/WsClient.test.ts
 describe('WsClient', () => {
   it('should reconnect with exponential backoff');
   it('should send hello message on connect');
@@ -372,7 +372,7 @@ describe('WsClient', () => {
 #### Prioritate 3: Store Actions
 
 ```typescript
-// apps/client/src/store/__tests__/appStore.test.ts
+// frontend/src/store/__tests__/appStore.test.ts
 describe('appStore', () => {
   it('should handle state:update messages');
   it('should handle goal:alert messages');
@@ -396,7 +396,7 @@ describe('appStore', () => {
 
 #### 1. Lipsă Validare Input în Routes
 
-**Fișier:** `packages/server/src/http/routes.ts`
+**Fișier:** `backend/src/http/routes.ts`
 
 **Problema:** Query parameters nu sunt validate
 
@@ -420,7 +420,7 @@ if (!result.success) {
 
 #### 2. Environment Variables Validation
 
-**Fișier:** `packages/server/src/config.ts`
+**Fișier:** `backend/src/config.ts`
 
 **Status:** ✅ Bine implementat cu Zod
 
@@ -489,7 +489,7 @@ const envSchema = z.object({
 
 ### 1. Șterge Dependența Deprecated
 ```bash
-cd "packages/server"
+cd "backend"
 pnpm remove @types/express-rate-limit
 ```
 
@@ -505,7 +505,7 @@ export const LiveTicker = memo(function LiveTicker({ matches }) {
 
 ### 3. Adaugă Error Boundary Generic
 ```tsx
-// apps/client/src/components/ErrorBoundary.tsx
+// frontend/src/components/ErrorBoundary.tsx
 import { Component, ReactNode } from 'react';
 
 export class ErrorBoundary extends Component<

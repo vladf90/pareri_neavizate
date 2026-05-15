@@ -4,19 +4,19 @@
 
 ### 1. Server-Side Implementation (100% Complete)
 
-#### TipeeStream Client (`packages/server/src/tipeestream/TipeeStreamClient.ts`)
+#### TipeeStream Client (`backend/src/tipeestream/TipeeStreamClient.ts`)
 - Socket.IO client connecting to TipeeStream API
 - Automatic reconnection with exponential backoff
 - GET socket info → connect with API key → join-room → listen 'new-event'
 - Error handling and logging integration
 
-#### TipeeStream Manager (`packages/server/src/tipeestream/TipeeStreamManager.ts`)
+#### TipeeStream Manager (`backend/src/tipeestream/TipeeStreamManager.ts`)
 - Event parsing and mapping for donations and subscriptions
 - Tier calculation logic (1-10€ = tier 1, 10-30€ = tier 2, 30€+ = tier 3)
 - WebSocket broadcast using `env()` helper for proper message envelope
 - YouTube-only subscription support (Kick excluded as requested)
 
-#### Type Definitions (`packages/server/src/tipeestream/types.ts`)
+#### Type Definitions (`backend/src/tipeestream/types.ts`)
 - Complete TypeScript interfaces for TipeeStream events
 - TipeeAlert interface for client-side consumption
 - Tier calculation function with proper typing
@@ -31,7 +31,7 @@
 - Installed `socket.io-client` (4.8.3) for real-time connection
 - Installed `axios` (1.13.2) for HTTP requests
 
-### 2. Shared Types (`packages/shared/src/wsEvents.ts`)
+### 2. Shared Types (`shared/src/wsEvents.ts`)
 
 #### TipeeAlert WebSocket Event
 ```typescript
@@ -53,13 +53,13 @@ export type TipeeAlert = WsEnvelope<
 
 ### 3. Client-Side Implementation (100% Complete)
 
-#### Zustand Store (`apps/client/src/store/tipeeStore.ts`)
+#### Zustand Store (`frontend/src/store/tipeeStore.ts`)
 - Queue management for sequential alert display
 - Single alert display logic
 - Auto-processing with 500ms delay between alerts
 - Duration handling (5s for tier 1/2, 8s for tier 3)
 
-#### Base Components (`apps/client/src/components/overlays/tipee/`)
+#### Base Components (`frontend/src/components/overlays/tipee/`)
 
 1. **FontStyles.tsx**
    - Google Fonts import: Bebas Neue, Montserrat
@@ -106,7 +106,7 @@ export type TipeeAlert = WsEnvelope<
    - Fixed emoji overflow issue
    - Massive typography for visibility
 
-#### Main Overlay Page (`apps/client/src/pages/OverlayTipeeAlertsPage.tsx`)
+#### Main Overlay Page (`frontend/src/pages/OverlayTipeeAlertsPage.tsx`)
 - WebSocket connection to server
 - Listen for `tipee:alert` events
 - Type-safe message handling with runtime check
@@ -115,7 +115,7 @@ export type TipeeAlert = WsEnvelope<
 - Alert display based on current queue state
 - Sound placeholder (commented for future implementation)
 
-#### Routing (`apps/client/src/App.tsx`)
+#### Routing (`frontend/src/App.tsx`)
 - Added route: `/overlay/tipee-alerts`
 - Standalone overlay (not integrated in master layout)
 - Proper import/export chain through `pages/index.ts`

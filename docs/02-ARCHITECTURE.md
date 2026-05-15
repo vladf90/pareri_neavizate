@@ -161,7 +161,7 @@ Jucătorii sunt ordonați după `formationPosition` (1-11) din Sportmonks:
 
 - `providers/sportmonks/*` NU importă nimic din UI.
 - `client/overlays/*` NU importă nimic din SportMonks.
-- Tipurile comune stau în `packages/shared`.
+- Tipurile comune stau în `shared`.
 
 ## Formate OBS
 
