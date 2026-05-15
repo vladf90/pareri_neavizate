@@ -22,7 +22,7 @@ const getServerHost = () => {
   // If accessing via IP (e.g., 192.168.1.100), API calls go to same IP
   // If accessing via localhost, API calls go to localhost
   const hostname = window.location.hostname;
-  return `http://${hostname}:3001`;
+  return `http://${hostname}:3000`;
 };
 
 /**
@@ -39,7 +39,7 @@ export const API_BASE_URL = getServerHost();
  */
 export const WS_URL = import.meta.env.VITE_WS_URL ||
   (import.meta.env.DEV 
-    ? `ws://${window.location.hostname}:3001/ws` 
+    ? `ws://${window.location.hostname}:3000/ws`
     : `${window.location.protocol === 'https:' ? 'wss:' : 'ws:'}//${window.location.host}/ws`);
 
 /**
